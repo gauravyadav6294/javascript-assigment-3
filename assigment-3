@@ -1,0 +1,25 @@
+// code-1 create an array using.push() with using prompt also using parseInt()-> take three numbers and findmax(using array)->math.max()
+
+var arr=[];
+
+var i=prompt("enter first number");
+i=parseInt(i);
+arr.push(i);
+
+var i=prompt("enter second number");
+i=prompt(i);
+arr.push(i);
+
+var i=prompt("enter third number");
+i=prompt(i);
+arr.push(i);
+
+if(arr[0]>=arr[1] && arr[0]>=arr[2]){
+    alert(arr[0]);
+}
+else if(arr[1]>=arr[0] && arr[1]>=arr[2]){
+    alert(arr[1]);
+}
+else{
+ alert(arr[2]);
+}
